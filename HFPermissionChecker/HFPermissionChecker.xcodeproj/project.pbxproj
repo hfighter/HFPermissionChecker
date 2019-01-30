@@ -13,7 +13,7 @@
 		5DBF378121F9645500A76A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBF378021F9645500A76A7F /* Assets.xcassets */; };
 		5DBF378421F9645500A76A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBF378221F9645500A76A7F /* LaunchScreen.storyboard */; };
 		5DBF378721F9645500A76A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF378621F9645500A76A7F /* main.m */; };
-		5DBF378F21F9647300A76A7F /* HFPermissionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF378E21F9647300A76A7F /* HFPermissionChecker.m */; };
+		5DEFE31B2201A74300EF6096 /* HFPermissionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFE3192201A74300EF6096 /* HFPermissionChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		5DBF378321F9645500A76A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DBF378521F9645500A76A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DBF378621F9645500A76A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5DBF378D21F9647300A76A7F /* HFPermissionChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFPermissionChecker.h; sourceTree = "<group>"; };
-		5DBF378E21F9647300A76A7F /* HFPermissionChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFPermissionChecker.m; sourceTree = "<group>"; };
 		5DBF379021FAAC6C00A76A7F /* HFPermissionChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HFPermissionChecker.entitlements; sourceTree = "<group>"; };
+		5DEFE3192201A74300EF6096 /* HFPermissionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFPermissionChecker.m; sourceTree = "<group>"; };
+		5DEFE31A2201A74300EF6096 /* HFPermissionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFPermissionChecker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +62,12 @@
 		5DBF377621F9645400A76A7F /* HFPermissionChecker */ = {
 			isa = PBXGroup;
 			children = (
+				5DEFE3182201A74300EF6096 /* Class */,
 				5DBF379021FAAC6C00A76A7F /* HFPermissionChecker.entitlements */,
 				5DBF377721F9645400A76A7F /* AppDelegate.h */,
 				5DBF377821F9645400A76A7F /* AppDelegate.m */,
 				5DBF377A21F9645400A76A7F /* ViewController.h */,
 				5DBF377B21F9645400A76A7F /* ViewController.m */,
-				5DBF378D21F9647300A76A7F /* HFPermissionChecker.h */,
-				5DBF378E21F9647300A76A7F /* HFPermissionChecker.m */,
 				5DBF377D21F9645400A76A7F /* Main.storyboard */,
 				5DBF378021F9645500A76A7F /* Assets.xcassets */,
 				5DBF378221F9645500A76A7F /* LaunchScreen.storyboard */,
@@ -76,6 +75,15 @@
 				5DBF378621F9645500A76A7F /* main.m */,
 			);
 			path = HFPermissionChecker;
+			sourceTree = "<group>";
+		};
+		5DEFE3182201A74300EF6096 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5DEFE31A2201A74300EF6096 /* HFPermissionChecker.h */,
+				5DEFE3192201A74300EF6096 /* HFPermissionChecker.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DBF378F21F9647300A76A7F /* HFPermissionChecker.m in Sources */,
+				5DEFE31B2201A74300EF6096 /* HFPermissionChecker.m in Sources */,
 				5DBF377C21F9645400A76A7F /* ViewController.m in Sources */,
 				5DBF378721F9645500A76A7F /* main.m in Sources */,
 				5DBF377921F9645400A76A7F /* AppDelegate.m in Sources */,
